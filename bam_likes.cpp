@@ -22,7 +22,7 @@ KSORT_INIT_GENERIC(uint16_t)
 
 extern int refToInt[256];
 
-#if 0
+#if 1
 typedef struct __errmod_coef_t {
   
 

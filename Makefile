@@ -15,8 +15,8 @@ BDIR=$(realpath $(BAMDIR))
 # Adjust $(HTSSRC) to point to your top-level htslib directory
 ifdef HTSSRC
 $(info HTSSRC defined)
-HTS_INCDIR=$(realpath $(HTSSRC))
-HTS_LIBDIR=$(realpath $(HTSSRC))/libhts.a
+HTS_INCDIR=$(realpath $(HTSSRC))/inc
+HTS_LIBDIR=$(realpath $(HTSSRC))/lib/libhts.a
 else
 $(info HTSSRC not defined, assuming systemwide installation -lhts)
 endif
